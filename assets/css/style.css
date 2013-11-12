@@ -27,36 +27,36 @@
 #about {
   padding-top: 80px; }
 
-#projects {
-  background: #cddde0; }
-  #projects .project {
-    margin-top: 30px; }
-  #projects .project-detail {
-    padding-top: 12px; }
+#projects .project {
+  margin-top: 30px; }
+#projects .project-detail {
+  padding-top: 12px; }
 
-#event-info {
-  background: #e1e9ec; }
-  #event-info .general-info {
-    margin-bottom: 10px;
-    font-size: 21px; }
-  #event-info dl {
-    margin-top: 0; }
-  #event-info dt {
-    font-weight: 600; }
-  #event-info dd {
-    font-weight: 200;
-    margin: 0 0 20px 0;
-    line-height: 28px; }
+#event-info .general-info {
+  margin-bottom: 10px;
+  font-size: 21px; }
+#event-info dl {
+  margin-top: 0; }
+#event-info dt {
+  font-weight: 600; }
+#event-info dd {
+  font-weight: 200;
+  margin: 0 0 20px 0;
+  line-height: 28px; }
 
 #event-map {
   height: 300px; }
 
-#event-schedule {
+#event-schedule caption {
+  font-size: 21px;
+  font-weight: 200;
+  margin-bottom: 10px; }
+#event-schedule table {
+  background: #fff;
+  border-color: #ccc; }
+
+.section:nth-child(odd) {
+  background: #cddde0; }
+
+.section:nth-child(odd) {
   background: #e1e9ec; }
-  #event-schedule caption {
-    font-size: 21px;
-    font-weight: 200;
-    margin-bottom: 10px; }
-  #event-schedule table {
-    background: #fff;
-    border-color: #ccc; }

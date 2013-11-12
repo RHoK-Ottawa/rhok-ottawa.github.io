@@ -15,11 +15,11 @@
 
 #about { padding-top: 80px; }
 
-#projects { background: #cddde0; 
+#projects {
   .project { margin-top: 30px; }
   .project-detail { padding-top: 12px; }
 }
-#event-info { background: #e1e9ec;
+#event-info {
   .general-info { margin-bottom: 10px; font-size: 21px; }
   dl { margin-top: 0; }
   dt { font-weight: 600; }
@@ -28,7 +28,15 @@
 
 #event-map { height: 300px; }
 
-#event-schedule { background: #e1e9ec;
+#event-schedule {
   caption { font-size: 21px; font-weight: 200; margin-bottom: 10px; }
   table { background: #fff; border-color: #ccc; }
+}
+
+.section:nth-child(odd){
+ background: #cddde0;
+}
+
+.section:nth-child(odd){
+ background: #e1e9ec;
 }
