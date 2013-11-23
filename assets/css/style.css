@@ -60,3 +60,8 @@
 
 .section:nth-child(odd) {
   background: #e1e9ec; }
+
+.past-project {
+  margin: 40px 0;
+  padding: 20px;
+  background: #e1e9ec; }
