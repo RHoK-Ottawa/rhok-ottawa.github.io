@@ -11,7 +11,15 @@
 
 .section { padding: 50px 0 60px; border-bottom: 1px #ccc solid; }
 
-.sponsors { margin: 60px 0; }
+.sponsors { 
+  margin: 60px 0; 
+
+  li{ float: left; display:block; min-height: 1px; margin-left: 15px;margin-bottom:20px;}
+  display:block;
+  img{ max-width: 100%; }
+  .bv02,.shopify{ margin-top: 25px; }
+}
+
 
 #about { padding-top: 80px; }
 
