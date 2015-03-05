@@ -1,79 +1,8 @@
-/* Custom page CSS
--------------------------------------------------- */
-#logo {
-  margin: 20px 0 30px; }
+* {
+  box-sizing: border-box;
+}
 
-.signup-btn {
-  float: left;
-  padding: 22px 40px;
-  background-color: #dc4e23;
-  color: #fff;
-  font-size: 18px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  border: none; }
-  .signup-btn:hover {
-    background-color: #b03f1d;
-    text-decoration: none;
-    color: #fff; }
-
-.section {
-  padding: 50px 0 60px;
-  border-bottom: 1px #ccc solid; }
-
-.sponsors {
-  margin: 60px 0;
-  display: block; }
-  .sponsors li {
-    float: left;
-    display: block;
-    min-height: 1px;
-    margin-left: 15px;
-    margin-bottom: 20px; }
-  .sponsors img {
-    max-width: 100%; }
-  .sponsors .bv02, .sponsors .shopify {
-    margin-top: 25px; }
-
-#about {
-  padding-top: 80px; }
-
-#projects .project {
-  margin-top: 30px; }
-#projects .project-detail {
-  padding-top: 12px; }
-
-#event-info .general-info {
-  margin-bottom: 10px;
-  font-size: 21px; }
-#event-info dl {
-  margin-top: 0; }
-#event-info dt {
-  font-weight: 600; }
-#event-info dd {
-  font-weight: 200;
-  margin: 0 0 20px 0;
-  line-height: 28px; }
-
-#event-map {
-  height: 300px; }
-
-#event-schedule caption {
-  font-size: 21px;
-  font-weight: 200;
-  margin-bottom: 10px; }
-#event-schedule table {
+body {
   background: #fff;
-  border-color: #ccc; }
-
-.section:nth-child(odd) {
-  background: #cddde0; }
-
-.section:nth-child(odd) {
-  background: #e1e9ec; }
-
-.past-project {
-  margin: 40px 0;
-  padding: 20px;
-  background: #e1e9ec; }
+  font: 16px/21px 'helvetica neue', helvetica, arial, sans-serif;
+}
