@@ -1,8 +1,76 @@
+/* ELEMENTS
+*/
 * {
   box-sizing: border-box;
 }
 
 body {
   background: #fff;
-  font: 16px/21px 'helvetica neue', helvetica, arial, sans-serif;
+  font: 16px/24px 'helvetica neue', helvetica, arial, sans-serif;
+  padding: 40px;
+}
+
+h2 {
+  margin: 0 0 20px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+
+/* GRID
+*/
+
+.wrap {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.col--brand {
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+
+/* MODULES
+*/
+
+.brand {
+  width: 128px;
+  height: 128px;
+}
+
+.content {
+  margin: 0 0 40px;
+}
+
+
+@media screen and (min-width: 40em) {
+  /* ELEMENTS
+  */
+  body {
+    padding: 80px 40px;
+  }
+
+
+  /* GRID
+  */
+  .wrap {
+    max-width: 800px;
+  }
+
+  .col--brand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 128px;
+    margin-right: 2px;
+  }
+
+  .col--content {
+    max-width: 590px;
+    margin-left: 210px;
+  }
 }
