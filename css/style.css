@@ -29,7 +29,8 @@ h6 {
     letter-spacing: 1px;
 }
 h3{
-  font-size:20px;
+  font-size:18px;
+  line-height:1.5;
 }
 
 p {
@@ -811,14 +812,35 @@ Parallax
 
 
 
-
-.main-content{
-  margin-bottom:3em;
+.heading-projects{
+  margin-top:40px;
 }
 
-.main-content p{
+.section-heading img{
+  max-width: 100%;
+}
+
+.subtitle{
+  text-align: center;
+}
+
+.section-heading h2{
+  font-size:36px;
+  margin-bottom:10px;
+}
+
+p, .main-content li{
   font-size: 1.15em;
   text-align: left;
+}
+.main-content ul{
+  margin-left: 5px;
+}
+.main-content li{
+  margin-top:10px;
+}
+.main-content li:first-child{
+  margin-top: 0;
 }
 .main-content h4{
   text-align: left;
@@ -833,6 +855,7 @@ Parallax
   list-style: none;
 }
   .sponsorlist li {
+    height:150px;
     text-align: center;
     float: left;
     -webkit-filter: grayscale(70%);
@@ -854,5 +877,10 @@ Parallax
   background: #1b3653!important;
 }
 footer{
+  padding: 5px 0px;
+  margin-top:50px;
   background-color: #1b3653!important;
+}
+footer p{
+  margin-bottom: 0;
 }
