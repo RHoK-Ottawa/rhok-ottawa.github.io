@@ -851,9 +851,18 @@ p, .main-content li{
 
 /*Sponsor List*/
 .sponsorlist {
-  width: 96%; 
+  width: 100%; 
   list-style: none;
 }
+
+@media screen and (min-width: 680px){
+  .sponsorlist {
+      width: 680px;
+      margin: 0 auto;
+      float: none;
+    }
+}
+
   .sponsorlist li {
     height:150px;
     text-align: center;
