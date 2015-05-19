@@ -849,6 +849,32 @@ p, .main-content li{
 }
 
 
+.col-2{
+  width:47.5%;
+  float: left;
+  margin-left:5%;
+}
+.col-2:first-child{
+  margin-left: 0;
+}
+
+
+.signup-button{
+  background: #329AD7;
+  padding:20px;
+  display: block;
+  width: auto;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  border:2px solid #222;
+  color: #fff;
+}
+.signup-button:hover, .signup-button:focus{
+  color:#fff;
+  background:#222;
+}
+
 /*Sponsor List*/
 .sponsorlist {
   width: 100%; 
@@ -888,8 +914,15 @@ p, .main-content li{
 footer{
   padding: 5px 0px;
   margin-top:50px;
-  background-color: #1b3653!important;
+  color: #329AD7;
+  background-color: #fff!important;
 }
 footer p{
   margin-bottom: 0;
+  color:#222;
+}
+footer a{
+  float: right;
+  color: #329AD7;
+  text-decoration: underline;
 }
