@@ -926,3 +926,9 @@ footer a{
   color: #329AD7;
   text-decoration: underline;
 }
+
+
+thead{
+  background: rgb(32, 135, 231);
+  color:#fff;
+}
